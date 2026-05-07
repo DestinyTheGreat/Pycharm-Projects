@@ -1,0 +1,115 @@
+[2025-04-01 01:12:00] Scan Results:
+OpenVAS Response:
+Traceback (most recent call last):
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvmtools\script.py", line 87, in main
+    with protocol_class(connection, transform=transform) as protocol:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvm\protocols\gmp\_gmp.py", line 121, in __enter__
+    self._gmp = self.determine_supported_gmp()
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvm\protocols\gmp\_gmp.py", line 90, in determine_supported_gmp
+    version_str = self.determine_remote_gmp_version().split(".", 1)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvm\protocols\gmp\_gmp.py", line 73, in determine_remote_gmp_version
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvm\protocols\_protocol.py", line 95, in connect
+    self._connection.connect()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DAN-UKOH\PycharmProjects\PythonProject1\.venv\Lib\site-packages\gvm\connections\_unix.py", line 44, in connect
+    socketlib.AF_UNIX, socketlib.SOCK_STREAM
+    ^^^^^^^^^^^^^^^^^
+AttributeError: module 'socket' has no attribute 'AF_UNIX'
+
+
+--------------------------------------------------
+[2025-04-01 07:02:13] Scan Results:
+Nmap scan results for 192.168.111.114:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:02:19] Scan Results:
+Shodan exposure for 192.168.111.114:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
+[2025-04-01 07:03:24] Scan Results:
+Nmap scan results for 192.168.111.183:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:03:40] Scan Results:
+Shodan exposure for 192.168.111.183:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
+[2025-04-01 07:08:41] Scan Results:
+Nmap scan results for 192.168.111.183:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:08:48] Scan Results:
+Shodan exposure for 192.168.111.183:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
+[2025-04-01 07:11:44] Scan Results:
+Nmap scan results for 10.10.10.10:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:13:10] Scan Results:
+Shodan exposure for www.facebook.com:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
+[2025-04-01 07:13:50] Scan Results:
+Nmap scan results for www.facebook.com:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:14:19] Scan Results:
+Nmap scan results for www.whatsapp.com:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:18:34] Scan Results:
+Nmap scan results for 8.8.8.8:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:18:58] Scan Results:
+Shodan exposure for 52.4.126.50:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
+[2025-04-01 07:19:38] Scan Results:
+Nmap scan results for 192.168.1.1:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 07:20:57] Scan Results:
+Nmap scan results for 192.168.1.50:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 08:22:00] Scan Results:
+Nmap scan results for 192.168.111.183:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 08:22:10] Scan Results:
+Nmap scan results for 192.168.111.183:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 08:22:13] Scan Results:
+Nmap scan results for 192.168.111.114:
+- Port 80: Open
+- Port 443: Open
+--------------------------------------------------
+[2025-04-01 08:25:43] Scan Results:
+Shodan exposure for 192.168.111.114:
+- Service: HTTP
+- Port: 80
+--------------------------------------------------
